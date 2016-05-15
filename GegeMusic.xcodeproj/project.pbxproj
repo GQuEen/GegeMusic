@@ -16,6 +16,33 @@
 		D924D9371CE6C7CA00738FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D924D9351CE6C7CA00738FF9 /* LaunchScreen.storyboard */; };
 		D924D9421CE6C7CA00738FF9 /* GegeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D924D9411CE6C7CA00738FF9 /* GegeMusicTests.m */; };
 		D924D94D1CE6C7CA00738FF9 /* GegeMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D924D94C1CE6C7CA00738FF9 /* GegeMusicUITests.m */; };
+		D98272A51CE82F2D00578AAA /* GGMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D98272A31CE82F2D00578AAA /* GGMusicCell.m */; };
+		D98272A61CE82F2D00578AAA /* GGMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98272A41CE82F2D00578AAA /* GGMusicCell.xib */; };
+		D98272E11CE85B1800578AAA /* GGPlayToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98272E01CE85B1800578AAA /* GGPlayToolView.m */; };
+		D98272EE1CE8721F00578AAA /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = D98272EA1CE8721F00578AAA /* 播放.png */; };
+		D98272EF1CE8721F00578AAA /* 播放列表.png in Resources */ = {isa = PBXBuildFile; fileRef = D98272EB1CE8721F00578AAA /* 播放列表.png */; };
+		D98272F01CE8721F00578AAA /* 唱片.png in Resources */ = {isa = PBXBuildFile; fileRef = D98272EC1CE8721F00578AAA /* 唱片.png */; };
+		D98272F11CE8721F00578AAA /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = D98272ED1CE8721F00578AAA /* 暂停.png */; };
+		D98272F41CE8A14D00578AAA /* GGPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98272F31CE8A14D00578AAA /* GGPlayView.m */; };
+		D98272F81CE8A5B400578AAA /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98272F71CE8A5B400578AAA /* CALayer+PauseAimate.m */; };
+		D98272FE1CE8B0DC00578AAA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D98272FD1CE8B0DC00578AAA /* UIImage+ImageEffects.m */; };
+		D98273011CE8B35200578AAA /* playlist_close.png in Resources */ = {isa = PBXBuildFile; fileRef = D98272FF1CE8B35200578AAA /* playlist_close.png */; };
+		D98273021CE8B35200578AAA /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273001CE8B35200578AAA /* more.png */; };
+		D982730A1CE8BDDC00578AAA /* 下载.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273031CE8BDDB00578AAA /* 下载.png */; };
+		D982730B1CE8BDDC00578AAA /* 循环.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273041CE8BDDC00578AAA /* 循环.png */; };
+		D982730C1CE8BDDC00578AAA /* 单曲播放.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273051CE8BDDC00578AAA /* 单曲播放.png */; };
+		D982730D1CE8BDDC00578AAA /* 随机播放.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273061CE8BDDC00578AAA /* 随机播放.png */; };
+		D982730E1CE8BDDC00578AAA /* 列表1.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273071CE8BDDC00578AAA /* 列表1.png */; };
+		D982730F1CE8BDDC00578AAA /* 爱心.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273081CE8BDDC00578AAA /* 爱心.png */; };
+		D98273101CE8BDDC00578AAA /* 分享.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273091CE8BDDC00578AAA /* 分享.png */; };
+		D98273141CE8C2E300578AAA /* 播放大.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273111CE8C2E300578AAA /* 播放大.png */; };
+		D98273151CE8C2E300578AAA /* 下一曲.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273121CE8C2E300578AAA /* 下一曲.png */; };
+		D98273161CE8C2E300578AAA /* 上一曲.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273131CE8C2E300578AAA /* 上一曲.png */; };
+		D98273181CE8CC0200578AAA /* 圆圈.png in Resources */ = {isa = PBXBuildFile; fileRef = D98273171CE8CC0200578AAA /* 圆圈.png */; };
+		D982731A1CE8CC3000578AAA /* 圆圈 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = D98273191CE8CC3000578AAA /* 圆圈 (1).png */; };
+		D9DD57BB1CE70B3300873292 /* MBSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD57BA1CE70B3300873292 /* MBSegmentedView.m */; };
+		D9DD57BF1CE7140200873292 /* GGSongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD57BE1CE7140200873292 /* GGSongModel.m */; };
+		D9DD57C31CE7168B00873292 /* GGSongViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD57C21CE7168B00873292 /* GGSongViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +82,42 @@
 		D924D9481CE6C7CA00738FF9 /* GegeMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GegeMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D924D94C1CE6C7CA00738FF9 /* GegeMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GegeMusicUITests.m; sourceTree = "<group>"; };
 		D924D94E1CE6C7CA00738FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98272A21CE82F2D00578AAA /* GGMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGMusicCell.h; sourceTree = "<group>"; };
+		D98272A31CE82F2D00578AAA /* GGMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGMusicCell.m; sourceTree = "<group>"; };
+		D98272A41CE82F2D00578AAA /* GGMusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GGMusicCell.xib; sourceTree = "<group>"; };
+		D98272DF1CE85B1800578AAA /* GGPlayToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlayToolView.h; sourceTree = "<group>"; };
+		D98272E01CE85B1800578AAA /* GGPlayToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayToolView.m; sourceTree = "<group>"; };
+		D98272EA1CE8721F00578AAA /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		D98272EB1CE8721F00578AAA /* 播放列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放列表.png"; sourceTree = "<group>"; };
+		D98272EC1CE8721F00578AAA /* 唱片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "唱片.png"; sourceTree = "<group>"; };
+		D98272ED1CE8721F00578AAA /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		D98272F21CE8A14D00578AAA /* GGPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlayView.h; sourceTree = "<group>"; };
+		D98272F31CE8A14D00578AAA /* GGPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayView.m; sourceTree = "<group>"; };
+		D98272F61CE8A5B400578AAA /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		D98272F71CE8A5B400578AAA /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		D98272FC1CE8B0DC00578AAA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		D98272FD1CE8B0DC00578AAA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		D98272FF1CE8B35200578AAA /* playlist_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlist_close.png; sourceTree = "<group>"; };
+		D98273001CE8B35200578AAA /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		D98273031CE8BDDB00578AAA /* 下载.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载.png"; sourceTree = "<group>"; };
+		D98273041CE8BDDC00578AAA /* 循环.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "循环.png"; sourceTree = "<group>"; };
+		D98273051CE8BDDC00578AAA /* 单曲播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单曲播放.png"; sourceTree = "<group>"; };
+		D98273061CE8BDDC00578AAA /* 随机播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "随机播放.png"; sourceTree = "<group>"; };
+		D98273071CE8BDDC00578AAA /* 列表1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表1.png"; sourceTree = "<group>"; };
+		D98273081CE8BDDC00578AAA /* 爱心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "爱心.png"; sourceTree = "<group>"; };
+		D98273091CE8BDDC00578AAA /* 分享.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享.png"; sourceTree = "<group>"; };
+		D98273111CE8C2E300578AAA /* 播放大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放大.png"; sourceTree = "<group>"; };
+		D98273121CE8C2E300578AAA /* 下一曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一曲.png"; sourceTree = "<group>"; };
+		D98273131CE8C2E300578AAA /* 上一曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上一曲.png"; sourceTree = "<group>"; };
+		D98273171CE8CC0200578AAA /* 圆圈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆圈.png"; sourceTree = "<group>"; };
+		D98273191CE8CC3000578AAA /* 圆圈 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆圈 (1).png"; sourceTree = "<group>"; };
 		D9DD57B81CE6D10100873292 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D9DD57B91CE70B3300873292 /* MBSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSegmentedView.h; sourceTree = "<group>"; };
+		D9DD57BA1CE70B3300873292 /* MBSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSegmentedView.m; sourceTree = "<group>"; };
+		D9DD57BD1CE7140200873292 /* GGSongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSongModel.h; sourceTree = "<group>"; };
+		D9DD57BE1CE7140200873292 /* GGSongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSongModel.m; sourceTree = "<group>"; };
+		D9DD57C11CE7168B00873292 /* GGSongViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSongViewModel.h; sourceTree = "<group>"; };
+		D9DD57C21CE7168B00873292 /* GGSongViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSongViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,14 +188,39 @@
 		D924D9261CE6C7C900738FF9 /* GegeMusic */ = {
 			isa = PBXGroup;
 			children = (
+				D98272F51CE8A5B400578AAA /* Category */,
+				D98272DE1CE85AF800578AAA /* View */,
+				D98272A11CE82F0F00578AAA /* Cell */,
+				D9DD57C01CE7167000873292 /* ViewModel */,
+				D9DD57BC1CE713DC00873292 /* Model */,
 				D924D92A1CE6C7C900738FF9 /* AppDelegate.h */,
 				D924D92B1CE6C7C900738FF9 /* AppDelegate.m */,
 				D924D92D1CE6C7C900738FF9 /* ViewController.h */,
 				D924D92E1CE6C7C900738FF9 /* ViewController.m */,
+				D9DD57B91CE70B3300873292 /* MBSegmentedView.h */,
+				D9DD57BA1CE70B3300873292 /* MBSegmentedView.m */,
 				D924D9301CE6C7C900738FF9 /* Main.storyboard */,
 				D924D9331CE6C7CA00738FF9 /* Assets.xcassets */,
 				D924D9351CE6C7CA00738FF9 /* LaunchScreen.storyboard */,
 				D924D9381CE6C7CA00738FF9 /* Info.plist */,
+				D98273191CE8CC3000578AAA /* 圆圈 (1).png */,
+				D98273171CE8CC0200578AAA /* 圆圈.png */,
+				D98273111CE8C2E300578AAA /* 播放大.png */,
+				D98273121CE8C2E300578AAA /* 下一曲.png */,
+				D98273131CE8C2E300578AAA /* 上一曲.png */,
+				D98273031CE8BDDB00578AAA /* 下载.png */,
+				D98273041CE8BDDC00578AAA /* 循环.png */,
+				D98273051CE8BDDC00578AAA /* 单曲播放.png */,
+				D98273061CE8BDDC00578AAA /* 随机播放.png */,
+				D98273071CE8BDDC00578AAA /* 列表1.png */,
+				D98273081CE8BDDC00578AAA /* 爱心.png */,
+				D98273091CE8BDDC00578AAA /* 分享.png */,
+				D98272FF1CE8B35200578AAA /* playlist_close.png */,
+				D98273001CE8B35200578AAA /* more.png */,
+				D98272EA1CE8721F00578AAA /* 播放.png */,
+				D98272EB1CE8721F00578AAA /* 播放列表.png */,
+				D98272EC1CE8721F00578AAA /* 唱片.png */,
+				D98272ED1CE8721F00578AAA /* 暂停.png */,
 				D924D9271CE6C7C900738FF9 /* Supporting Files */,
 				D9DD57B81CE6D10100873292 /* PrefixHeader.pch */,
 			);
@@ -164,6 +251,56 @@
 				D924D94E1CE6C7CA00738FF9 /* Info.plist */,
 			);
 			path = GegeMusicUITests;
+			sourceTree = "<group>";
+		};
+		D98272A11CE82F0F00578AAA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D98272A21CE82F2D00578AAA /* GGMusicCell.h */,
+				D98272A31CE82F2D00578AAA /* GGMusicCell.m */,
+				D98272A41CE82F2D00578AAA /* GGMusicCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D98272DE1CE85AF800578AAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D98272DF1CE85B1800578AAA /* GGPlayToolView.h */,
+				D98272E01CE85B1800578AAA /* GGPlayToolView.m */,
+				D98272F21CE8A14D00578AAA /* GGPlayView.h */,
+				D98272F31CE8A14D00578AAA /* GGPlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D98272F51CE8A5B400578AAA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D98272F61CE8A5B400578AAA /* CALayer+PauseAimate.h */,
+				D98272F71CE8A5B400578AAA /* CALayer+PauseAimate.m */,
+				D98272FC1CE8B0DC00578AAA /* UIImage+ImageEffects.h */,
+				D98272FD1CE8B0DC00578AAA /* UIImage+ImageEffects.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D9DD57BC1CE713DC00873292 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9DD57BD1CE7140200873292 /* GGSongModel.h */,
+				D9DD57BE1CE7140200873292 /* GGSongModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9DD57C01CE7167000873292 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9DD57C11CE7168B00873292 /* GGSongViewModel.h */,
+				D9DD57C21CE7168B00873292 /* GGSongViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +409,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98272EE1CE8721F00578AAA /* 播放.png in Resources */,
+				D98273011CE8B35200578AAA /* playlist_close.png in Resources */,
+				D98272F01CE8721F00578AAA /* 唱片.png in Resources */,
+				D98273151CE8C2E300578AAA /* 下一曲.png in Resources */,
+				D982730C1CE8BDDC00578AAA /* 单曲播放.png in Resources */,
+				D982730A1CE8BDDC00578AAA /* 下载.png in Resources */,
 				D924D9371CE6C7CA00738FF9 /* LaunchScreen.storyboard in Resources */,
+				D98273141CE8C2E300578AAA /* 播放大.png in Resources */,
+				D98273101CE8BDDC00578AAA /* 分享.png in Resources */,
+				D98273181CE8CC0200578AAA /* 圆圈.png in Resources */,
 				D924D9341CE6C7CA00738FF9 /* Assets.xcassets in Resources */,
+				D982730B1CE8BDDC00578AAA /* 循环.png in Resources */,
+				D982730E1CE8BDDC00578AAA /* 列表1.png in Resources */,
 				D924D9321CE6C7C900738FF9 /* Main.storyboard in Resources */,
+				D982730D1CE8BDDC00578AAA /* 随机播放.png in Resources */,
+				D98273021CE8B35200578AAA /* more.png in Resources */,
+				D98272A61CE82F2D00578AAA /* GGMusicCell.xib in Resources */,
+				D982730F1CE8BDDC00578AAA /* 爱心.png in Resources */,
+				D98272EF1CE8721F00578AAA /* 播放列表.png in Resources */,
+				D982731A1CE8CC3000578AAA /* 圆圈 (1).png in Resources */,
+				D98273161CE8C2E300578AAA /* 上一曲.png in Resources */,
+				D98272F11CE8721F00578AAA /* 暂停.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +503,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98272E11CE85B1800578AAA /* GGPlayToolView.m in Sources */,
+				D98272A51CE82F2D00578AAA /* GGMusicCell.m in Sources */,
+				D98272F41CE8A14D00578AAA /* GGPlayView.m in Sources */,
 				D924D92F1CE6C7C900738FF9 /* ViewController.m in Sources */,
+				D98272FE1CE8B0DC00578AAA /* UIImage+ImageEffects.m in Sources */,
 				D924D92C1CE6C7C900738FF9 /* AppDelegate.m in Sources */,
+				D9DD57BB1CE70B3300873292 /* MBSegmentedView.m in Sources */,
+				D9DD57BF1CE7140200873292 /* GGSongModel.m in Sources */,
 				D924D9291CE6C7C900738FF9 /* main.m in Sources */,
+				D9DD57C31CE7168B00873292 /* GGSongViewModel.m in Sources */,
+				D98272F81CE8A5B400578AAA /* CALayer+PauseAimate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

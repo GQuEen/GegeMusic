@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
+typedef NS_ENUM(NSInteger, GGMusicDataTopStyle) {
+    GGMusicDataTopStyleChina,//中国内地
+    GGMusicDataTopStyleEM,//欧美
+    GGMusicDataTopStyleHT,//港台
+    GGMusicDataTopStyleK//韩国
+};
+
 @interface ViewController : UIViewController
 
 
