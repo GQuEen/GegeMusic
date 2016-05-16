@@ -32,12 +32,7 @@
         self.albumImageView = albumImageView;
         self.imageViewOriginPostion = imageViewOriginPostion;
         self.model = model;
-        self.player = player;
-        
-//        AVPlayerItem *playerItem = [[AVPlayerItem alloc]initWithURL:[NSURL URLWithString:model.url]];
-//        _player = [[AVPlayer alloc]initWithPlayerItem:playerItem];
-//        NSLog(@"%@",model.url);
-//        [_player play];
+//        self.player = player;
         
         [self setupBackground];
         [self setupToolBar];

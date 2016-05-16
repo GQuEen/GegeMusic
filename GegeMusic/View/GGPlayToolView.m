@@ -45,7 +45,7 @@
     _albumImageView.image = [UIImage imageNamed:@"唱片.png"];
     _albumImageView.layer.cornerRadius = 45/2;
     _albumImageView.contentMode = UIViewContentModeScaleToFill;
-    _albumImageView.userInteractionEnabled = YES;
+    _albumImageView.userInteractionEnabled = NO;
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAlbumImageView:)];
     [_albumImageView addGestureRecognizer:tap];
@@ -92,7 +92,7 @@
 
 - (void)setModel:(GGSongModel *)model {
     _model = model;
-    
+    _albumImageView.userInteractionEnabled = YES;
     [_albumImageView sd_setImageWithURL:[NSURL URLWithString:self.model.albumpic_small]];
     _songNameLabel.text = self.model.songname;
     _singerNameLabel.text = self.model.singername;
