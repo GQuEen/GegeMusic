@@ -145,8 +145,8 @@
     const CGFloat marigin = (ScreenWidth-65-100)/6;
     
     playBtn.center = CGPointMake(ScreenWidth/2, view.frame.size.height/2);
-    nextSongBtn.center = CGPointMake(CGRectGetMaxX(playBtn.frame)+marigin+20, view.frame.size.height/2);
-    lastSongBtn.center = CGPointMake(playBtn.frame.origin.x - marigin-20, view.frame.size.height/2);
+    nextSongBtn.center = CGPointMake(CGRectGetMaxX(playBtn.frame)+marigin+25, view.frame.size.height/2);
+    lastSongBtn.center = CGPointMake(playBtn.frame.origin.x - marigin-25, view.frame.size.height/2);
     [view addSubview:playBtn];
     [view addSubview:nextSongBtn];
     [view addSubview:lastSongBtn];

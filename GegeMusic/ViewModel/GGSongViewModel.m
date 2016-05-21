@@ -29,15 +29,16 @@
     CGFloat songnameX = CGRectGetMaxX(_albumpic) + MARGIN;
     CGFloat songnameY = MARGIN + 5;
     CGFloat songnameW = ScreenWidth - songnameX - 20;
-    CGSize songnameSize = [_model.songname sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]}];
-    _songname = (CGRect){{songnameX,songnameY},{songnameW,songnameSize.height}};
+//    CGSize songnameSize = [_model.songname sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]}];
+    CGRect songeNameSize = [_model.songname boundingRectWithSize:CGSizeMake(songnameW, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
+    _songname = (CGRect){{songnameX,songnameY},{songnameW,songeNameSize.size.height}};
     
     CGFloat singernameX = songnameX;
     CGSize singernameSize = [_model.singername sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]}];
-    CGFloat singernameY = CGRectGetMaxY(_albumpic) - singernameSize.height - 5;
+    CGFloat singernameY = CGRectGetMaxY(_songname) +5;
     _singername = (CGRect){{singernameX,singernameY},singernameSize};
     
-    _cellHeight = CGRectGetMaxY(_albumpic) + MARGIN;
+    _cellHeight = CGRectGetMaxY(_singername) + MARGIN;
     
     CGFloat playX = 0;
     CGFloat playY = 5;

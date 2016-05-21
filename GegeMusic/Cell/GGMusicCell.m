@@ -50,6 +50,7 @@
     _songNameLabel = [[UILabel alloc]init];
     _songNameLabel.font = [UIFont systemFontOfSize:16];
     _songNameLabel.textColor = [UIColor colorWithRed:54/255.0 green:54/255.0 blue:54/255.0 alpha:1];
+    _songNameLabel.numberOfLines = 0;
     
     _singerNameLabel = [[UILabel alloc]init];
     _singerNameLabel.font = [UIFont systemFontOfSize:14];

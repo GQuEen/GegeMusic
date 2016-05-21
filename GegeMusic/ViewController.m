@@ -49,6 +49,7 @@
     
     _segmentedView = [[MBSegmentedView alloc]initWithFrame:CGRectMake(0, 64, ScreenWidth, ScreenHeight-64-65) withSegments:segments];
     [self setupTableView];
+    
     __weak typeof(self) weakSelf = self;
     _segmentedView.clickSegmentBtnBlock = ^(UIButton *sender) {
         
@@ -255,6 +256,7 @@
         _currentSelectedCell = cell;
         GGSongViewModel *newViewModel = cell.viewModel;
         newViewModel.playColor = MAIN_COLOR;
+        
         _currenSelectedViewModel = newViewModel;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.play.backgroundColor = newViewModel.playColor;
