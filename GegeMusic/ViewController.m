@@ -15,6 +15,32 @@
 
 #define MUSIC_API @"http://route.showapi.com/213-4"
 
+/*
+ *
+ *          ┌─┐       ┌─┐
+ *       ┌──┘ ┴───────┘ ┴──┐
+ *       │                 │
+ *       │       ───       │
+ *       │  ─┬┘       └┬─  │
+ *       │                 │
+ *       │       ─┴─       │
+ *       │                 │
+ *       └───┐         ┌───┘
+ *           │         │
+ *           │         │
+ *           │         │
+ *           │         └──────────────┐
+ *           │                        │
+ *           │                        ├─┐
+ *           │                        ┌─┘
+ *           │                        │
+ *           └─┐  ┐  ┌───────┬──┐  ┌──┘
+ *             │ ─┤ ─┤       │ ─┤ ─┤
+ *             └──┴──┘       └──┴──┘
+ *                 神兽保佑
+ *                 代码无BUG!
+ */
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (strong, nonatomic) MBSegmentedView *segmentedView;
@@ -134,7 +160,7 @@
     __weak typeof(self) weakSelf = self;
 
     [manger POST:@"http://route.showapi.com/213-4" parameters:parameter progress:^(NSProgress * _Nonnull uploadProgress) {
-        //记载数据的菊花
+        //
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         //请求成功
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
